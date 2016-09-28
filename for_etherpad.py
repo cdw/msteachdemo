@@ -1,8 +1,9 @@
 # This is not meant to be executed directly, but used as a repository of 
 # challenges for the material
 
-
+##############################
 ## Traceback reading
+##############################
 
 traceback="""
 ------------------------------------------------------
@@ -34,7 +35,9 @@ Paste answers below the question...
 """
 
 
+##############################
 ## NameErrors
+##############################
 
 for number in range(10):
     # use a if the number is a multiple of 3, otherwise use b
@@ -52,7 +55,9 @@ underneath this line:
 """
 
 
+##############################
 ## IndexErrors 
+##############################
 
 seasons = ['spring', 'summer', 'fall', 'winter']
 print("My fav season is ", seasons[4])
