@@ -4,6 +4,28 @@
 
 ## Traceback reading
 
+traceback="""
+------------------------------------------------------
+KeyError             Traceback (most recent call last)
+<ipython-input-6-b6988acf1a74> in <module>()
+----> 1 error_prone.print_friday_message()
+
+/Users/dave/Dropbox/talks/20160928_ms_teachingdemo/error_prone.py in print_friday_message()
+     26 
+     27 def print_friday_message():
+---> 28     print_message("Friday")
+     29 
+
+/Users/dave/Dropbox/talks/20160928_ms_teachingdemo/error_prone.py in print_message(day)
+     22         "sunday": "Aw, the weekend is almost over."
+     23     }
+---> 24     print(messages[day])
+     25 
+     26 
+
+KeyError: 'Friday'
+"""
+
 question="""
 Paste answers below the question...
 1. What is the file name where the error occurred?
