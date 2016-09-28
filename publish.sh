@@ -7,7 +7,7 @@ then
 else
   mess="$1"
 fi
-jupyter-nbconvert --to slides slides.ipynb --reveal-prefix=reveal.js
+jupyter-nbconvert --to slides teachingdemo.ipynb --reveal-prefix=reveal.js
 mv teachingdemo.slides.html  index.html
 mkdir -p /tmp/workspace
 cp -r * /tmp/workspace/
